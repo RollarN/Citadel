@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ca55a8b81792c74a9a3f18627e4adb4, type: 3}
+  m_Name: TestUpgradeDataHolder
+  m_EditorClassIdentifier: 
+  FireUpgrades:
+  - {fileID: 11400000, guid: 45d0fde6f3cd00c4f8ce9aa39c2893de, type: 2}
+  - {fileID: 11400000, guid: 45d0fde6f3cd00c4f8ce9aa39c2893de, type: 2}
+  FrostUpgrades:
+  - {fileID: 11400000, guid: 45d0fde6f3cd00c4f8ce9aa39c2893de, type: 2}
+  - {fileID: 11400000, guid: 45d0fde6f3cd00c4f8ce9aa39c2893de, type: 2}
+  LightningUpgrades:
+  - {fileID: 11400000, guid: 45d0fde6f3cd00c4f8ce9aa39c2893de, type: 2}
+  - {fileID: 11400000, guid: 45d0fde6f3cd00c4f8ce9aa39c2893de, type: 2}
+  OilUpgrades:
+  - {fileID: 11400000, guid: 45d0fde6f3cd00c4f8ce9aa39c2893de, type: 2}
+  - {fileID: 11400000, guid: 45d0fde6f3cd00c4f8ce9aa39c2893de, type: 2}

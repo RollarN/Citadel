@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 1f73d6d9c5390c141b7eaaba595fe3bc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_VFXPools: {fileID: 11400000, guid: f70b52247e2e6ff449e5306edcfd16ea, type: 2}
+  - ShootingSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

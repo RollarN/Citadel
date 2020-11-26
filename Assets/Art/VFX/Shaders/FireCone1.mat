@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1700582690895681704
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 2
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FireCone1
+  m_Shader: {fileID: -6465566751694194690, guid: e08bc393bb6bb2f4b8d09e35d49c32d8,
+    type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _BLENDMODE_ALPHA _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT
+    _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    MotionVector: User
+    RenderType: Transparent
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  - TransparentBackface
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_23D6A47E:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_2E4828BE:
+        m_Texture: {fileID: 2800000, guid: 2110b819e4d79594fa1ebff73ee64578, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_3BC9EA0B: 2.32
+    - Vector1_4184C084: 0
+    - Vector1_465F6823: 0.169
+    - Vector1_47E74B49: 2
+    - Vector1_60E7191: 0
+    - Vector1_6BA2CF3A: 0.1
+    - Vector1_7C1A74C6: -0.36
+    - Vector1_7C59E797: 2.05
+    - Vector1_7D93DB2B: 1.28
+    - Vector1_AA8B82D3: 0.5
+    - Vector1_AF92BC69: 10000
+    - Vector1_FF1D2A85: 9.01
+    - _AlphaCutoffEnable: 1
+    - _AlphaDstBlend: 10
+    - _AlphaSrcBlend: 1
+    - _BlendMode: 0
+    - _CullMode: 0
+    - _CullModeForward: 0
+    - _DoubleSidedEnable: 1
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 10
+    - _EnableFogOnTransparent: 1
+    - _ReceivesSSR: 0
+    - _RenderQueueType: 5
+    - _RequireSplitLighting: 0
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 0
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 2
+    - _StencilRefMV: 32
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
+    - _SurfaceType: 1
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentSortPriority: 0
+    - _TransparentZWrite: 1
+    - _UseShadowThreshold: 0
+    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestGBuffer: 3
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    m_Colors:
+    - Color_19E924B6: {r: 1, g: 1, b: 1, a: 0}
+    - Color_DE897AFA: {r: 4.7686276, g: 0, b: 0, a: 0}
+    - Vector2_3A71AA88: {r: 0.2, g: -0.3, b: 0, a: 0}
+    - Vector2_43B78E2: {r: 0, g: -1.1, b: 0, a: 0}
+    - Vector2_48ED1857: {r: 3.5, g: 1, b: 0, a: 0}
+    - Vector2_768D650B: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_A4585E1C: {r: 3.87, g: 1, b: 0, a: 0}
+    - Vector2_B080327F: {r: 3.25, g: 1.78, b: 0, a: 0}
+    - Vector2_C0F325DD: {r: 3.87, g: 2.6, b: 0, a: 0}
+    - Vector2_C9703898: {r: 0.1, g: -0.5, b: 0, a: 0}
+    - Vector2_CC725A6C: {r: 0, g: -1, b: 0, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

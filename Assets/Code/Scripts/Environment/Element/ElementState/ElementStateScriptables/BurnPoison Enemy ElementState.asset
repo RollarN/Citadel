@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef0d068b8fe88f948b21785f84180693, type: 3}
+  m_Name: BurnPoison Enemy ElementState
+  m_EditorClassIdentifier: 
+  duration: 4
+  elementType: 4
+  ignoredReactants: 
+  refreshingReactants: 0000000002000000
+  m_VFXPools: {fileID: 11400000, guid: f70b52247e2e6ff449e5306edcfd16ea, type: 2}
+  EffectsWhenApplied:
+    m_keys: 0200000000000000
+    m_values:
+    - 0.8
+    - 10
+  EffectsPerSecond:
+    m_keys: 00000000
+    m_values:
+    - 3
+  EffectsWhenRemoved:
+    m_keys: 02000000
+    m_values:
+    - 1.25

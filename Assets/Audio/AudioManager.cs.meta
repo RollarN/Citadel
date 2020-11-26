@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 51178ec78e1d8fc468140f8e182d36b2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - AudioSourcePrefab: {instanceID: 0}
+  - PlayerSpellMixerGroup: {fileID: -3173677176760684134, guid: c7eee47348131404a99a023220870209,
+      type: 2}
+  - EnemySpellMixerGroup: {fileID: -874612526373957107, guid: c7eee47348131404a99a023220870209,
+      type: 2}
+  - PlayerCharacterMixerGroup: {fileID: 4881731941086144062, guid: c7eee47348131404a99a023220870209,
+      type: 2}
+  - EnemyCharacterMixerGroup: {fileID: -5433524546962976448, guid: c7eee47348131404a99a023220870209,
+      type: 2}
+  - PropExplosionMixerGroup: {fileID: -7062535174734964807, guid: c7eee47348131404a99a023220870209,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

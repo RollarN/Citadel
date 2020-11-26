@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 51a673ffe3ba53c43be782d1dd52f6bd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - FresnelSettingsDataHolder: {fileID: 11400000, guid: 91e2d3e7e83ccff44b4627f78516f4ba,
+      type: 2}
+  - _currentElement: {instanceID: 0}
+  - _standardElement: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

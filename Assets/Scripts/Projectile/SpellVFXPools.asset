@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840fb58e30fb7e0488bc9b8beb9414ec, type: 3}
+  m_Name: SpellVFXPools
+  m_EditorClassIdentifier: 
+  m_ProjectilePrefabs:
+  - {fileID: 3958407167231707672, guid: 40421da31ed9f98448540e4c18038905, type: 3}
+  - {fileID: 8321823879060482321, guid: 9f3f133e1737a5647bfdfe1b45721e36, type: 3}
+  - {fileID: 1595657292140729544, guid: 167bdc967fc9e264eaaf37e476cda87b, type: 3}
+  - {fileID: 1409498117926496390, guid: fdfaa774db4fcfd4f99cc5dbf529acbd, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_ImpactPrefabs:
+  - {fileID: 4338887600875924438, guid: cc1e0fe8ca511c14396b4546c82780fd, type: 3}
+  - {fileID: 8786068641392137942, guid: bffd293b7bf09c94bbb47b0ec603bfa2, type: 3}
+  - {fileID: 6806727084867309501, guid: e586affa87e77d14a9a0671e924db534, type: 3}
+  - {fileID: 3019646741926958064, guid: 4c6144e439ac8b445937128e5075db20, type: 3}
+  - {fileID: 1911600761511996944, guid: 183ca7246984233418b5ea47afe7ad05, type: 3}
+  - {fileID: 0}
+  - {fileID: 7039722853030733338, guid: 01bcc1598c2e02348b1e694db34e947f, type: 3}
+  m_LingeringPrefabs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_TrackedElementTypes:
+  - Fire
+  - Ice
+  - Poison
+  - Lightning
+  - PoisonFire
+  - Neutral
+  - FirePoison
+  - ELEMENT_TYPE_MAX

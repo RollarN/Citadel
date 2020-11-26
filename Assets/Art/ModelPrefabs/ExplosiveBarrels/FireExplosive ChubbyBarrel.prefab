@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!136 &9177769355665780920
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109397696052626777}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.46
+  m_Height: 1.85
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.32, z: 0}
+--- !u!1001 &4202290699959576689
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -7491563550712554478, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_OptionalExplosionData
+      value: 
+      objectReference: {fileID: 11400000, guid: 3797d6286076ec44ba0f90c8532823e0,
+        type: 2}
+    - target: {fileID: 1246589999062507323, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.41671
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246589999062507323, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4999962
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246589999062507323, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -19.255278
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246589999062507323, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246589999062507323, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246589999062507323, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246589999062507323, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246589999062507323, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246589999062507323, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246589999062507323, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246589999062507323, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2816895082689080616, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_Name
+      value: FireExplosive ChubbyBarrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2816895082689080616, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 5867042664301364527, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867042664301364527, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867042664301364527, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867042664301364527, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+        type: 3}
+      propertyPath: m_Height
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e9491ba23f2ad2d47bae8c9778bc0c24, type: 3}
+--- !u!1 &2109397696052626777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2816895082689080616, guid: e9491ba23f2ad2d47bae8c9778bc0c24,
+    type: 3}
+  m_PrefabInstance: {fileID: 4202290699959576689}
+  m_PrefabAsset: {fileID: 0}

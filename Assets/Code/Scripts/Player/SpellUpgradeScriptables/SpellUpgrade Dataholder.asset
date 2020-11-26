@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ca55a8b81792c74a9a3f18627e4adb4, type: 3}
+  m_Name: SpellUpgrade Dataholder
+  m_EditorClassIdentifier: 
+  FireIcon: {fileID: 21300000, guid: 566fc21de20b4ac48b938a1c23d7d217, type: 3}
+  Poisoncon: {fileID: 21300000, guid: 5019294d29b9b5047b029baaf89efa88, type: 3}
+  LightningIcon: {fileID: 21300000, guid: fc1f80251d627d34da4abca0c236216a, type: 3}
+  IceIcon: {fileID: 21300000, guid: de81154635b65074889f4303029c5698, type: 3}
+  m_FireSpriteLeft: {fileID: 21300000, guid: d1dbee1025e480247bfd7753498ed7d8, type: 3}
+  m_FireSpriteRight: {fileID: 21300000, guid: 040bb96ddbec0a54fb1a4b7c05c03c37, type: 3}
+  m_FireSpriteHoverLeft: {fileID: 21300000, guid: 47a63e6f129575e44a3f3b1f49da3899,
+    type: 3}
+  m_FireSpriteHoverRight: {fileID: 21300000, guid: 70971eb4c4548b549a17587a179653fc,
+    type: 3}
+  m_IceSpriteLeft: {fileID: 21300000, guid: ab7e941291f2fd0499252319a9a05460, type: 3}
+  m_IceSpriteRight: {fileID: 21300000, guid: e2755f679b76f2748868f8087b733730, type: 3}
+  m_IceSpriteHoverLeft: {fileID: 21300000, guid: 685f957f6d9aa144795a6d277a460e1a,
+    type: 3}
+  m_IceSpriteHoverRight: {fileID: 21300000, guid: acbd195217486464982912e808bcc94b,
+    type: 3}
+  m_LightningLeft: {fileID: 21300000, guid: 1f3a44084cb798f49aeaa17ead90f96a, type: 3}
+  m_LightningRight: {fileID: 21300000, guid: 3db7823c3137cf4419567e73ee54da6b, type: 3}
+  m_LightningHoverLeft: {fileID: 21300000, guid: 7bdf124bd2540e64cb1db13f65a2aff1,
+    type: 3}
+  m_LightningHoverRight: {fileID: 21300000, guid: 2c7edf2d7ba17094ea30e84e68443fdc,
+    type: 3}
+  m_OilSpriteLeft: {fileID: 21300000, guid: 3c7e93ba5a7682f428c8ebd2e44812a8, type: 3}
+  m_OilSpriteRight: {fileID: 21300000, guid: b4dc921b4f1e9d64a9599cad9e6cffb1, type: 3}
+  m_OilSpriteHoverLeft: {fileID: 21300000, guid: b119a6f72f544e74b9b8f8947196c522,
+    type: 3}
+  m_OilSpriteHoverRight: {fileID: 21300000, guid: 6991e3b4442a71941981eef090fa41db,
+    type: 3}
+  FireUpgrades:
+  - {fileID: 11400000, guid: fdb1a1036613384468fca78ed01b9749, type: 2}
+  FrostUpgrades: []
+  LightningUpgrades:
+  - {fileID: 11400000, guid: a0f437267b90755498180e9c0bb4f06f, type: 2}
+  OilUpgrades:
+  - {fileID: 11400000, guid: 6da6a7a6d6a076744ab47f5c6becc29c, type: 2}

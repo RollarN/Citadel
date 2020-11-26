@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0e774666869484041aba7081e4850ffa
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_DetectionClip: {fileID: 8300000, guid: 6822aaf432eecb14ba22777f50bf4d43, type: 3}
+  - m_RigidBody: {instanceID: 0}
+  - m_Collider: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

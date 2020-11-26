@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f73d6d9c5390c141b7eaaba595fe3bc, type: 3}
+  m_Name: FireExplosiveBarrelData
+  m_EditorClassIdentifier: 
+  m_SpellType: 0
+  m_VFXPools: {fileID: 11400000, guid: f70b52247e2e6ff449e5306edcfd16ea, type: 2}
+  m_ElementType: 0
+  m_CollisionLayer:
+    serializedVersion: 2
+    m_Bits: 30720
+  m_PassThroughExplosiveLayer:
+    serializedVersion: 2
+    m_Bits: 16384
+  m_ShootingSound: {fileID: 0}
+  m_ImpactSound: {fileID: 8300000, guid: 02d58ebe05f03334ea01faf5ace1e248, type: 3}
+  m_ChargingSound: {fileID: 8300000, guid: bee43ac4d8ff509479f91ba09e12be52, type: 3}
+  m_TargetAudioMixer: 5
+  m_ImpactElementState:
+    m_keys: 000000000500000001000000
+    m_values:
+    - {fileID: 11400000, guid: 8f18d231220015240829542afc6be667, type: 2}
+    - {fileID: 11400000, guid: 8f18d231220015240829542afc6be667, type: 2}
+    - {fileID: 11400000, guid: 3547470afbf89884eb6cfbc4a01cb493, type: 2}
+  m_Distance: 0
+  m_TravelSpeed: 0
+  m_CollisionRadius: 0
+  m_ImpactEffectRadius: 3
+  m_FiringCooldown: 0
+  m_Damage: 55
+  DamageByDistance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.004437119
+      value: 1.0083482
+      inSlope: -0.054013565
+      outSlope: -0.054013565
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.3305354
+      value: 0.99987316
+      inSlope: -0.09604954
+      outSlope: -0.09604954
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.47559425
+    - serializedVersion: 3
+      time: 0.99583334
+      value: -0.0023584906
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ImpactExplosionForce: 20
+  m_TimeToReachFullCharge: 1
+  m_MinimumChargeTime: 0.5
+  m_ChargingMovementSpeedDividend: 1

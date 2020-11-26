@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: bdc3b57a4b30d054d80b5a6426be3d17
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_SpellBasedMaterial: {instanceID: 0}
+  - m_LightningPfxParticle: {instanceID: 0}
+  - m_SpellAudioSource: {instanceID: 0}
+  - m_GeneralAudioSource: {instanceID: 0}
+  - m_VFXPools: {instanceID: 0}
+  - healthBar: {instanceID: 0}
+  - m_ChargeBar: {instanceID: 0}
+  - m_AimingCircle: {instanceID: 0}
+  - m_MeshTransform: {instanceID: 0}
+  - m_DashSound: {fileID: 8300000, guid: 19ed4a251e4b2734dac15455de31d3bc, type: 3}
+  - m_ReferencePushBackBox: {instanceID: 0}
+  - m_PushBackSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

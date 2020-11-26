@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3087879733369347491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8107683287048413124}
+  - component: {fileID: 4293071373953595903}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8107683287048413124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3087879733369347491}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1059.8772, y: -1944.4215, z: 1256.3527}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4293071373953595903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3087879733369347491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51178ec78e1d8fc468140f8e182d36b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AmountOfAudioSources: 10
+  m_AudioSourcePrefab: {fileID: 4757051663518079714, guid: 2f45149653d79a048a1162e5e177f47e,
+    type: 3}
+  m_PlayerSpellMixerGroup: {fileID: -3173677176760684134, guid: c7eee47348131404a99a023220870209,
+    type: 2}
+  m_EnemySpellMixerGroup: {fileID: -874612526373957107, guid: c7eee47348131404a99a023220870209,
+    type: 2}
+  m_PlayerCharacterMixerGroup: {fileID: 4881731941086144062, guid: c7eee47348131404a99a023220870209,
+    type: 2}
+  m_EnemyCharacterMixerGroup: {fileID: -5433524546962976448, guid: c7eee47348131404a99a023220870209,
+    type: 2}
+  m_PropExplosionMixerGroup: {fileID: -1196292189536637977, guid: c7eee47348131404a99a023220870209,
+    type: 2}
+  m_PropGenericMixerGroup: {fileID: -7157867556733495312, guid: c7eee47348131404a99a023220870209,
+    type: 2}
+  m_PlayerDashMixerGroup: {fileID: 5017883063233277901, guid: c7eee47348131404a99a023220870209,
+    type: 2}
+  m_PlayerPushBackMixerGroup: {fileID: -4686235611985971793, guid: c7eee47348131404a99a023220870209,
+    type: 2}

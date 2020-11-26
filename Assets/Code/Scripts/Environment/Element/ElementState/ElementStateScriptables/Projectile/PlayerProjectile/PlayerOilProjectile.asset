@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f244552000cc7cd4c8c021b69df88a32, type: 3}
+  m_Name: PlayerOilProjectile
+  m_EditorClassIdentifier: 
+  m_SpellType: 0
+  m_VFXPools: {fileID: 11400000, guid: f70b52247e2e6ff449e5306edcfd16ea, type: 2}
+  m_ElementType: 2
+  m_CollisionLayer:
+    serializedVersion: 2
+    m_Bits: 10752
+  m_PassThroughExplosiveLayer:
+    serializedVersion: 2
+    m_Bits: 16384
+  m_ShootingSound: {fileID: 8300000, guid: dac097b08d8571c46b669519420c964c, type: 3}
+  m_ImpactSound: {fileID: 8300000, guid: b1499e06b875a5e4884e9a825e512896, type: 3}
+  m_ChargingSound: {fileID: 8300000, guid: bee43ac4d8ff509479f91ba09e12be52, type: 3}
+  m_TargetAudioMixer: 0
+  m_ImpactElementState:
+    m_keys: 0200000000000000010000000400000005000000
+    m_values:
+    - {fileID: 11400000, guid: 995fc28e59733da4f9eb4d55ee87504b, type: 2}
+    - {fileID: 11400000, guid: e30e10a833e601c49afa87ad3ef78c35, type: 2}
+    - {fileID: 11400000, guid: 995fc28e59733da4f9eb4d55ee87504b, type: 2}
+    - {fileID: 11400000, guid: e30e10a833e601c49afa87ad3ef78c35, type: 2}
+    - {fileID: 11400000, guid: 995fc28e59733da4f9eb4d55ee87504b, type: 2}
+  m_Distance: 20
+  m_TravelSpeed: 12
+  m_CollisionRadius: 0.7
+  m_ImpactEffectRadius: 1.2
+  m_FiringCooldown: 0.2
+  m_Damage: 15
+  DamageByDistance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.005183908
+      value: 0.9900601
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.32092318
+      value: 0.95869654
+      inSlope: -0.41311672
+      outSlope: -0.41311672
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.98616344
+      value: -0.0009947468
+      inSlope: 0.06884248
+      outSlope: 0.06884248
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ImpactExplosionForce: 20
+  m_TimeToReachFullCharge: 0.7
+  m_MinimumChargeTime: 0.4
+  m_ChargingMovementSpeedDividend: 0.85
+  ChargeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.00000076182187
+      value: 0.0047187805
+      inSlope: 0.9952805
+      outSlope: 0.9952805
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.9952805
+      outSlope: 0.9952805
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_AmmoRechargePercentPerSec: 13
+  m_ResourceCostPerShot: 35
+  ElementLevel: 0
